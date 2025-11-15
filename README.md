@@ -104,7 +104,7 @@ docker compose up -d mysql
 ```powershell
 cd server
 cp .env.example .env    # заполнить токены и доступ к БД
-меняем переменные БД на HOST=127.0.0.1; PORT=3307
+меняем переменные БД в .env на HOST=127.0.0.1; PORT=3307
 npm install
 npm run migrate         # создаёт таблицы
 npm run seed            # наполняет 4 демо-объявления
